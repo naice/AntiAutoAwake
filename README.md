@@ -1,3 +1,5 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/tx9tw060vbkkc421/branch/master?svg=true)](https://ci.appveyor.com/project/naice/antiautoawake/branch/master)
+
 # AntiAutoAwake for Windows
 
 - Run as Administrator
