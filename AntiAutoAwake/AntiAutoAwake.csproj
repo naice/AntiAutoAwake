@@ -106,13 +106,13 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\#lib\PowerCFGUtil\PowerCFGUtil.csproj">
+    <Resource Include="lockstart_session.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PowerCFGUtil\PowerCFGUtil.csproj">
       <Project>{bda57338-6187-4de4-aa54-229e5a97801c}</Project>
       <Name>PowerCFGUtil</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="lockstart_session.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
